@@ -1,5 +1,6 @@
 <h1>readIni</h1>
-<p>readIni is a programmer's library in C++ to read ".ini" MS Windows style files in Linux systems. readIni takes little resources and offers functions for sequentially browse or search directly by key. An examples file in C++ is provided.</p>
+<p>readIni is a programmer's library in C++ to read ".ini" MS Windows style files in Linux systems. readIni takes little resources and offers functions for sequentially search directly by Section/key.<br>
+An examples file (testReadIni) in C++ and its Makefine are provided.</p>
 
 <h1>Features</h1>
 <ul>
@@ -19,6 +20,21 @@ address=dhcp # This is a comment
 dns = 192.168.1.1
 </code>
 </pre>
+
+<1>Function</h1>
+Section     the name of the section to search for
+Key         the name of the entry to find the value of
+DefValue    default string in the event of a failed read
+Buffer      a pointer to the buffer to copy into
+BufferSize  the maximum number of characters to copy
+Filename    the name and full path of the .ini file to read from
+return      the number of characters copied into the supplied buffer
+<pre>int ini_gets( const char *Section,
+              const char *Key,
+              const char *DefValue,
+              char *Buffer,
+              int BufferSize,
+              const char *Filename)</pre>
 
 <h1>Acknowledgement</h1>
 <p>readIni is derived from the project minIni of Compubase. Please see <a href="https://github.com/compuphase/minIni" rel="nofollow">https://github.com/compuphase/minIni</a></p>
