@@ -1,6 +1,6 @@
 <h1>readIni</h1>
 <p>readIni is a programmer's library in C++ to read ".ini" MS Windows style files in Linux systems. readIni takes little resources and offers one function for sequentially search by Section/key.<br>
-An examples file (testReadIni) in C++ and its Makefine are provided.</p>
+Examples files (testReadIni.cpp and config.ini) in C++ and its Makefine are provided.</p>
 
 <h1>Features</h1>
 <ul>
