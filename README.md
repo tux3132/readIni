@@ -21,15 +21,15 @@ dns = 192.168.1.1
 </code>
 </pre>
 
-<1>Function</h1>
-Section     the name of the section to search for
+<h1>Function</h1>
+<pre>Section     the name of the section to search for
 Key         the name of the entry to find the value of
 DefValue    default string in the event of a failed read
 Buffer      a pointer to the buffer to copy into
 BufferSize  the maximum number of characters to copy
 Filename    the name and full path of the .ini file to read from
 return      the number of characters copied into the supplied buffer
-<pre>int ini_gets( const char *Section,
+int ini_gets( const char *Section,
               const char *Key,
               const char *DefValue,
               char *Buffer,
