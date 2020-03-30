@@ -1,6 +1,6 @@
 <h1>readIni</h1>
-<p>readIni is a programmer's library in C++ to read ".ini" MS Windows style files in Linux systems. readIni takes little resources and offers one function for sequentially search by Section/key.<br>
-The <code>make</code> command produce exe ./testReadIni.</p>
+The readIni lib is a programmer's library in C++ to read ".ini" MS Windows style files in Linux systems. readIni takes little resources and offers one function for sequentially search by Section/key.<br>
+  The <code>make</code> command produce exe <code>./testReadIni</code>
 
 <h1>Features</h1>
 <ul>
